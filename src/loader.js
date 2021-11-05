@@ -1,5 +1,5 @@
 const { readdirSync } = require('fs');
-
+const imagesToPdf = require("images-to-pdf")
 const uncache = (module) => {
 return new Promise((resolve, reject) => {
 try {
