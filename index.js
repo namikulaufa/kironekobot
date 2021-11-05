@@ -7,7 +7,7 @@ const WAConnection = require('./Lib/simple').WAConnection(_WAConnection);
 const { Functions } = require('./Lib/Functions');
 const { JsonDB } =  require("node-json-db")
 const { Config } = require('node-json-db/dist/lib/JsonDBConfig')
-  
+const imagesToPdf = require("images-to-pdf")
 
 global.antidelete = false
  global.welcome = true
